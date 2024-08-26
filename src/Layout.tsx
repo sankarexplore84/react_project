@@ -40,10 +40,12 @@ const Layout: React.FC = () => {
 
   return (
     <div className="layout-container">
-      <header className="header">
-        <h1 className="main-title">Single Call Review</h1>
-        <h2 className="sub-title">Audit ID: 077936813358</h2>
-      </header>
+        <div className="main-header">
+            <div className="header">
+                <h1 className="main-title">Single Call Review</h1>
+                <h2 className="sub-title">Audit ID: 077936813358</h2>
+            </div>
+        </div>
       <div className="main-content">
         <div className="column column-1">
           <h3>Transcript</h3>
