@@ -1,0 +1,61 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .column {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .column-1 {
+    flex: 1;
+    background-color: #e0e0e0;
+  }
+  
+  .column-2 {
+    flex: 2;
+    background-color: #f9f9f9;
+    overflow-y: auto; /* To allow scrolling if content overflows */
+  }
+  
+  .bottom-column {
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .metadata-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Space between columns */
+  }
+  
+  .metadata-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .metadata-field {
+    margin-bottom: 5px;
+  }
+  
+  .metadata-label {
+    font-weight: bold;
+  }
+  
+  .metadata-value {
+    margin-left: 5px;
+  }
+  
